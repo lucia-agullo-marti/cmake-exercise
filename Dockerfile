@@ -30,6 +30,5 @@ RUN apt-get update && apt-get install -y\
 RUN apt-get update && \
     apt-get install -y libdeal.II-dev && \
     rm -rf /var/lib/apt/lists/*
->>>>>>> 5537b5e (Add and update Dockerfile, CMakeLists, build_and_run, and main.cpp)
 
 CMD ["/bin/bash"]
